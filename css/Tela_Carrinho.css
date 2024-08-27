@@ -1,0 +1,98 @@
+/*Cabeçalho*/
+
+.lema{
+    color: #fff;
+    background-color: transparent;
+    font-size: 35px;
+    font-family: Helvetica;
+}
+
+header{
+    background-color: rgb(250, 149, 166);
+    text-align: center;
+    padding: 14px;
+    color: #fff;
+    height: 100px;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+td{
+    font-size: 30px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+.produto-imagem {
+    width: 140px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}
+
+td img {
+    display: block;
+    margin: 0 auto;
+}
+
+#subtotal{
+    font-size: 50px;
+    text-align: center;
+}
+
+#precoTotal{
+    margin-left: 1200px;
+    margin-top: -80px;
+    font-size: 50px;
+    font-family: helvetica;
+}
+
+#aviso{
+    margin-left: 1170px;
+    margin-top: -50px ;
+    font-family: Helvetica;
+    font-size:15px;
+}
+
+.final{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black; /* Espessura, estilo e cor da linha */
+    height: 260px;
+    width: 100%;
+}
+
+.btn{
+    font-family: Helvetica;
+    display:block;
+    width: 90%;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(250, 149, 166);
+    font-size: 20px;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
