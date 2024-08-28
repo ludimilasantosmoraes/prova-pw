@@ -61,29 +61,30 @@ td img {
 }
 
 #precoTotal{
-    margin-left: 1200px;
-    margin-top: -80px;
     font-size: 50px;
     font-family: helvetica;
 }
 
 #aviso{
-    margin-left: 1170px;
-    margin-top: -50px ;
     font-family: Helvetica;
     font-size:15px;
+    position: absolute;
+    margin-bottom: 120px;
+    margin-right: 270px;
 }
 
 .final{
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    align-items: end;
+    justify-content: end;
     border: 2px solid black; /* Espessura, estilo e cor da linha */
     height: 260px;
     width: 100%;
 }
 
 .btn{
+    position: absolute;
     font-family: Helvetica;
     display:block;
     width: 90%;
@@ -94,5 +95,14 @@ td img {
     color: #fff;
     padding: 15px;
     border-radius: 5px;
-    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+}
+
+
+.sub{
+    margin-bottom: 150px;
+    margin-left: 90%;
+    width: 900px;
+    position: absolute;
 }
