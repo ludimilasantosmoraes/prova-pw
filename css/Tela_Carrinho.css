@@ -55,9 +55,11 @@ td img {
     margin: 0 auto;
 }
 
-#subtotal{
+.subtotal{
     font-size: 50px;
     text-align: center;
+    margin-bottom: 120px;
+    margin-right: 100px;
 }
 
 #precoTotal{
@@ -69,7 +71,7 @@ td img {
     font-family: Helvetica;
     font-size:15px;
     position: absolute;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     margin-right: 90px;
 }
 
@@ -87,7 +89,7 @@ td img {
     position: absolute;
     font-family: Helvetica;
     display:block;
-    width: 55%;
+    width: 90%;
     text-align: center;
     text-decoration: none;
     background-color: rgb(250, 149, 166);
