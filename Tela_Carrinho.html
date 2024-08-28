@@ -1,53 +1,55 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho LL Shoes</title>
+    <!-- Incluindo o CSS do Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Seu CSS personalizado -->
     <link rel="stylesheet" href="css/Tela_Carrinho.css">
-
 </head>
 <body>
-     <!--CABEÇALHO-->
-
-     <header>
-        <h3 class="lema">Meu Carrinho</h3>
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center py-3">
+        <h3>Meu Carrinho</h3>
     </header>
-
     
-    <table>
-        <thead>
-            <tr>
-                <th>Produto</th>
-                <th>Descrição</th>
-                <th>Preço</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><img src="img/img7.jpg" alt="Produto 1" class="produto-imagem"></td>
-                <td>Paleta Multifuncional Dior</td>
-                <td>R$ 200,00</td>
-            </tr>
-            <tr>
-                <td><img src="img/img2.jpg" alt="Produto 2" class="produto-imagem"></td>
-                <td>Caneta Delineadora Dior</td>
-                <td>R$ 210,00</td>
-            </tr>
-            <tr>
-                <td><img src="img/img3.jpg" alt="Produto 3" class="produto-imagem"></td>
-                <td>Pó Translucido Nars</td>
-                <td>R$ 210,00</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container mt-4">
+        <!-- Tabela de Produtos -->
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="img/img7.jpg" alt="Produto 1" class="img-fluid" style="max-width: 100px;"></td>
+                    <td>Paleta Multifuncional Dior</td>
+                    <td>R$ 200,00</td>
+                </tr>
+                <tr>
+                    <td><img src="img/img2.jpg" alt="Produto 2" class="img-fluid" style="max-width: 100px;"></td>
+                    <td>Caneta Delineadora Dior</td>
+                    <td>R$ 210,00</td>
+                </tr>
+                <tr>
+                    <td><img src="img/img3.jpg" alt="Produto 3" class="img-fluid" style="max-width: 100px;"></td>
+                    <td>Pó Translucido Nars</td>
+                    <td>R$ 210,00</td>
+                </tr>
+            </tbody>
+        </table>
 
-
-            <div class="final">
-                <p id="subtotal" class="sub"><b>Subtotal: R$ 620,00</b></p>
-                <p id="aviso">ou sem juros em até 6x de R$ 103,33</p>
-                    <a href="index.html" class="btn"><b>Finalizar Compra</b></a>
-            </div>
+        <!-- Seção Finalização -->
+        <div class="d-flex justify-content-between align-items-center mt-4">
+            <p class="font-weight-bold">Subtotal: R$ 620,00</p>
+            <p class="aviso">ou sem juros em até 6x de R$ 103,33</p>
+            <a href="index.html" class="btn btn-primary">Finalizar Compra</a>
+        </div>
+    </div>
 </body>
 </html>

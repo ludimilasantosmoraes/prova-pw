@@ -65,12 +65,12 @@ td img {
     font-family: helvetica;
 }
 
-#aviso{
+.aviso{
     font-family: Helvetica;
     font-size:15px;
     position: absolute;
-    margin-bottom: 120px;
-    margin-right: 270px;
+    margin-bottom: 20px;
+    margin-right: 90px;
 }
 
 .final{
@@ -87,7 +87,7 @@ td img {
     position: absolute;
     font-family: Helvetica;
     display:block;
-    width: 90%;
+    width: 55%;
     text-align: center;
     text-decoration: none;
     background-color: rgb(250, 149, 166);
@@ -97,12 +97,13 @@ td img {
     border-radius: 5px;
     margin-bottom: 30px;
     margin-right: 60px;
+    margin-top: 180px;
 }
 
 
-.sub{
-    margin-bottom: 150px;
-    margin-left: 90%;
+.font-weight-bold{
+    margin-bottom: -10px;
     width: 900px;
     position: absolute;
+    
 }
