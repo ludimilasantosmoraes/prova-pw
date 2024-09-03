@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="css/Tela_Formulario.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        header {
+            width: 100%;
+            height: 20%;
+            background-color: rgb(250, 149, 166);
+            padding: 15px;
+            font-size: 40px;
+            color: white;
+            text-align: center;
+        }
+            
+        * {
+            font-family: 'Segoe UI';
+        }
+
+        .card {
+            border-radius: 10px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background: rgb(175, 61, 80);
+        }
+
+        .navbar a {
+            color: aliceblue;
+            background-color: rgb(175, 61, 80);
+            padding: 15px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background: rgb(250, 149, 166);
+            color: azure;
+            font-weight: bold;
+        }
+        .card-body{
+            background-color: white;
+        }
+        .card-header {
+            background-color: rgb(250, 149, 166);
+            color: white;
+            border-radius: 100px 100px 0 0;
+        }
+
+        .btn-primary {
+            background-color: rgb(250, 149, 166);
+            border-color: rgb(250, 149, 166);
+        }
+        .form-group
+        {
+           align-items: center;
+           margin-left: 30%;
+        }
+        .btn{
+            width: 20%;
+            margin-left: 45%;
+        }
+        .form-control{
+            width: 50%;
+        }
+        .btn-primary:hover {
+            background-color: rgb(216, 76, 99);
+            border-color: rgb(250, 149, 166);
+            width:"40%";
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <p><b>Luna Makeup</b></p>
+    </header>
+    <nav class="navbar">
+        <a href="http://127.0.0.1:5500/Loja_esmalte/Tela_catalogo.html">Cátalogo de Produtos</a>
+        <a href="#">Batom</a>
+        <a href="#">Rímel</a>
+        <a href="#">Paleta de Sombras</a>
+        <a href="#">Blush</a>
+        <a href="#">Gloss</a>
+        <a href="#">Base</a>
+    </nav>
+
+    <div class="container-fluid custom-container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 p-0">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4>Fale Conosco</h4>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="nome"><b>Nome:</b></label>
+                                <input type="text" class="form-control" id="nome" rows="2" placeholder="Insira aqui seu nome completo">
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><b>E-mail:</b></label>
+                                <input type="email" class="form-control" id="email" rows="2" placeholder="Insira aqui seu email">
+                            </div>
+                            <div class="form-group">
+                                <label for="endereco"><b>Endereço:</b></label>
+                                <input type="text" class="form-control" id="endereco" rows="2" placeholder="Insira aqui seu endereço">
+                            </div>
+                            <div class="form-group">
+                                <label for="telefone"><b>Telefone:</b></label>
+                                <input type="tel" class="form-control" id="telefone" rows="2" placeholder="Insira aqui seu telefone">
+                            </div>
+                            <div class="form-group">
+                                <label for="comentarios"><b>Comentários:</b></label>
+                                <textarea class="form-control" id="comentarios" rows="3" placeholder="Adicione um comentário"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block"><b>ENVIAR</b></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

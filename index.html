@@ -1,29 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
     <link rel="stylesheet" href="css/Tela_inicial.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+       
+        .btn-rosa {
+            background-color: rgb(250, 149, 166);
+            border-color: transparent;
+        }
+
+        .btn-rosa:hover {
+            background-color: rgb(216, 76, 99);
+            border-color: rgb(216, 76, 99);
+        }
+
+        #btn-carrinho {
+            margin-left: 85%;
+            margin-bottom: 5px;
+            text-decoration: none;
+        }
+
+        .carrinho {
+            font-family: 'Segoe UI';
+            align-items: center;
+            color: aliceblue;
+            font-size: 20px;  
+            margin-top: 9px;
+        }
+
+        header {
+            width: 100%;
+            height: 20%;
+            background-color: rgb(250, 149, 166);
+            padding: 15px;
+            font-size: 40px;
+            color: white;
+            text-align: center;
+        }
+
+        * {
+            font-family: 'Segoe UI';
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background: rgb(175, 61, 80);
+        }
+
+        .navbar a {
+            color: aliceblue;
+            background-color: rgb(175, 61, 80);
+            padding: 10px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background: rgb(204, 34, 62);
+            color: azure;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
     <header>
-        <p><b> Luna Makeup </b></p>
-
+        <div class="absolute top-0 right-0 p-6">
+            <button
+                class="button no-underline flex items-center px-4 py-2 text-sm text-white rounded-lg btn-rosa hover:bg-pink-700 absolute top-4 right-4"
+                id="btn-carrinho">
+                <a href="http://127.0.0.1:5500/Loja_esmalte/Tela_Carrinho.html" class="carrinho no-underline">
+                <svg class="mb-2" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"  style="margin-right: 4px"
+                    class= "bi bi-basket2-fill mr-2" viewBox="0 0 16 16">
+                    <path
+                        d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1" />
+                </svg>
+              <b class="no-underline">Carrinho</b></a>
+            </button>
+        </div>
+        <p><b>Luna Makeup </b></p>
     </header>
     <nav class="navbar">
 
-        <a href="http://127.0.0.1:5501/Tela_catalogo.html#">Cátalogo de Produtos</a>
+        <a href="Tela_catalogo.html">Cátalogo de Produtos</a>
         <a href="#">Batom</a>
         <a href="#">Rímel</a>
         <a href="#">Paleta de Sombras</a>
         <a href="#">Blush</a>
         <a href="#">Gloss</a>
         <a href="#">Base</a>
+        <a href="Tela.Formulario.html">Suporte</a>
     </nav>
+    
     <div class="corpo">
         <div class="card">
-               <img src="img/img11.jpg" class="img-card">
+            <img src="img/img11.jpg" class="img-card">
         </div>
         <div class="card">
             <img src="img/img12.jpg" class="img-card">
@@ -35,6 +112,9 @@
             <img src="img/img13.jpg" class="img-card">
         </div>
     </div>
+
+    <!-- oi -->
+
     <footer>
         <p>
             <span>Luna Makeup</span>
@@ -43,4 +123,5 @@
     </footer>
 </body>
 </body>
+
 </html>

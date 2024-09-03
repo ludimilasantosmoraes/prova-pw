@@ -1,12 +1,5 @@
 /*Cabeçalho*/
 
-.lema{
-    color: #fff;
-    background-color: transparent;
-    font-size: 35px;
-    font-family: Helvetica;
-}
-
 header{
     background-color: rgb(250, 149, 166);
     text-align: center;
@@ -20,7 +13,9 @@ body {
     margin: 20px;
     background-color: #f4f4f4;
 }
-
+.carrinho{ 
+    font-size: 30px;
+}
 table {
     width: 100%;
     border-collapse: collapse;
@@ -72,7 +67,7 @@ td img {
     font-size:15px;
     position: absolute;
     margin-bottom: 100px;
-    margin-right: 90px;
+    margin-right: 100px;
 }
 
 .final{
@@ -80,7 +75,7 @@ td img {
     display: flex;
     align-items: end;
     justify-content: end;
-    border: 2px solid black; /* Espessura, estilo e cor da linha */
+    border: 2px solid  rgb(250, 149, 166); /* Espessura, estilo e cor da linha */
     height: 260px;
     width: 100%;
 }
@@ -99,7 +94,7 @@ td img {
     border-radius: 5px;
     margin-bottom: 30px;
     margin-right: 60px;
-    margin-top: 180px;
+    margin-top: 100px;
 }
 
 
